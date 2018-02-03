@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RedPram</title>
+
+
+
+<!-- Bootstrap parte supriore grafica --> 
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet (api parte grafica
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+</head>
+<body>
+<!-- Navigazione
+    ==========================================-->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+    <!-- Marchio e interruttore vengono raggruppati per un migliore display mobile -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">RedPram</a> </div>
+    
+    <!-- collegamenti, i moduli e altri contenuti nav per attivare / disattivare -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home" class="page-scroll">Home</a></li>
+        <li><a href="#about-section" class="page-scroll">Per saperne di più</a></li>
+        <li><a href="#map-section" class="page-scroll">Mappa</a></li>
+        <li><a href="#team-section" class="page-scroll">Team</a></li>
+        <li><a href="#segnalation-section" class="page-scroll">Segnalazioni utenti</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Intestazione -->
+<header class="text-center" name="home">
+  <div class="intro-text">
+    <h1>Progetto <span class="color">RedPram</span></h1>
+    <p>Piattaforma dimostrativa che sfrutta l'utilizzo di open data per fornire servizi utili a persone con ridotta capacità motoria.</p>
+    <div class="clearfix"></div>
+    <a href="#about-section" class="btn btn-default btn-lg page-scroll">Per saperne di più</a> </div>
+</header>
+
+<!-- Sezione Per saperne di più-->
+<div id="about-section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Per saperne di più</h2>
+      <hr>
+    </div>
+    <div class="space"></div>
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Chi Siamo</h4>
+        <p> Siamo due studenti, presso la facoltà di Informatica Applicata di Urbino</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Cosa facciamo</h4>
+        <p>Sviluppiamo una piattoforma che possa essere d'aiuto, alle persone con una ridotta mobilità che cercano il meglio per le loro possibilità</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Perchè?</h4>
+        <p>Vogliamo mettere a disposizione informazioni riguardanti hotel, alberghi, B&B, appartamenti e tanto altro per poter dare una sistemazione di cui probabilmente i nostri utenti hanno bisogno</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--  Sezione Portafolio -->
+<div id="map-section">
+  <div class="container"> <!-- Contenitore -->
+    <div class="section-title">
+      <h2>Mappa - Strutture disponibili </h2>
+      <hr>
+      <div class="clearfix"></div>
+    </div>
+    <div class="categories">
+      <ul class="cat">
+        <li>
+        Cliccando sul comando "mappa" verrete indirizzati sulla web map contenente i dati.
+		</li>
+		<li>
+		Ogni puntatore personalizzato indica una struttura, facendo click sul puntatore si potranno visualizzare le informazioni della struttura.
+		</li>	
+		<li>
+		Nella mappa in alto a destra è presente una legenda contenente i tipi di strutture disponibili.
+		</li>
+		<div class="space"></div>
+		<button type="button" onclick="location.href='http://localhost/file_work/new_code.html'"  class="btn btn-default">Mappa</button>
+      </ul>
+      
+
+<!-- Team Section -->
+<div id="team-section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Incontra il Team</h2>
+      <hr>
+    </div>
+    <div id="row">
+      <div class="col-md-3 col-sm-6 team">
+        <div class="thumbnail"> <img src="img/team/01.jpg" alt="..." class="team-img">
+          <div class="caption">
+            <h3>Jonathan Zaccaria</h3>
+            <p>Developer</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 team">
+        <div class="thumbnail"> <img src="img/team/02.jpg" alt="..." class="team-img">
+          <div class="caption">
+            <h3>Davide Marrancone</h3>
+            <p>Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div id="segnalation-section">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Segnalazioni utenti</h2>
+    </div>
+    <div class="categories">
+		<ul class="cat">
+		<li>
+		In questa sezione cliccando sul comando "Mappa segnalazioni" ogni utente può inviare agli amministratori del sito una segnalazione riguardante
+		</li>
+		<li>
+		una o più strutture ricettive comprensivi di informazioni.
+		</li>
+		<li>
+		La segnalazione verrà successivamente implementata nella mappa dopo aver effettuato gli adeguati controlli per verficare la veridicità dei dati.
+		</li>
+		<div class="space"></div>
+        <button type="button" onclick="location.href='http://localhost/file_work/prova_seconda/mappa.html'" class="btn btn-default">Mappa Segnalazioni</button>
+		
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+ 
+
+<!-- Javascripts
+    ================================================== --> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
