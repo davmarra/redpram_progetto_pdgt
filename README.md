@@ -50,6 +50,8 @@ Successivamente lo script si collega al server mysql tramite funzione mysqliconn
 segnalazioni_location.php -> connection -> userlocation.locatiosend 
 segnalazioni_location.php -> mysqli¬_query -> userlocation.locationsend 
 
+<img src="screen/segnalazioni.png">
+<img src="screen/db_segnalazioni.png">
 
 # RedPram Index
 
