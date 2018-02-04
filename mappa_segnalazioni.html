@@ -39,6 +39,7 @@
 	<input id="pac-input" class="controls" type="text" placeholder="Search Box">
 	
     <div id="map" height="460px" width="100%"></div>
+	 
     <div id="form">
 		<table>
 		<tr><td>Nome:</td> <td><input type='text' id='name'/> </td> </tr>
@@ -162,7 +163,7 @@
 		
 		//SEARCH BOX CODE END
       }
-
+	// funzione per salvare i dati inseriti nel form e concatenarli ad un url con il file php
       function saveData() {
         var name = escape(document.getElementById('name').value);
         var address = escape(document.getElementById('address').value);
