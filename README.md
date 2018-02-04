@@ -14,7 +14,7 @@ Il file XML estrapolato dal database verrà richiamato dal file mappa.html trami
 
 File .xml -> downloadUrl -> mappa.html
 
-Pagina mappa.html inizializza una mappa di google maps grazie all’utilizzo dell’API: https://maps.googleapis.com/maps/api/js?key=AIzaSyDmHL2efPewdksDGepxcqJ3jkAzSedeUNE&callback=initMap
+Pagina mappa.html inizializza una mappa di google maps grazie all’utilizzo dell’API: https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap
 
 API -> inizializza mappa -> mappa.html
 
@@ -27,7 +27,7 @@ mappa.html -> marker(evento click) -> infoWindow/infoPanel
 # Mappa Segnalazioni
 
 Il file mappa_segnalazioni.html sfrutta l’API messa a disposizione da Google
-https://maps.googleapis.com/maps/api/js?key=AIzaSyDmHL2efPewdksDGepxcqJ3jkAzSedeUNE&libraries=places&callback=initMap 
+https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap 
 consente di inizializzare la mappa ed avere una lista di place tramite libraries=place che consente di usare la search box per cercare un determinato indirizzo e ne fornisce l’autocompletamento.
 
 API -> inizializza mappa -> search box -> place (auto complete)
