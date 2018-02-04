@@ -56,5 +56,5 @@ segnalazioni_location.php -> mysqli¬_query -> userlocation.locationsend
 Index.html è l’index della nostra piattaforma sviluppata attraverso codice html per avere una base sulla quale richiamare i nostri servizi, ricordando che il template è stato acquisito tramite un sito web utilizzato semplicemente per dare maggior qualità all’interfaccia utente con delle modifiche attraverso le quali risultavano indispensabili compiere. 
 
 Esso richiama i file mappa.html  e mappa segnalazioni.html tramite dei button creati appositamente.
-<img src="redpram1.png">
+<img src="screen/redpram1.png">
 
