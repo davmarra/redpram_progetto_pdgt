@@ -23,6 +23,8 @@ Una volta che il file .xml viene caricato sulla pagina mappa.html verrà creato 
 
 mappa.html -> marker(evento click) -> infoWindow/infoPanel 
 
+<img src="screen/screen_map.png">
+<img src="screen/db_maps.png">
 
 # Mappa Segnalazioni
 
