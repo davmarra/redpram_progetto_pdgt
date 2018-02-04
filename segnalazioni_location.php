@@ -3,7 +3,7 @@ $username="root";
 $password="";
 $database="userlocation";
 
-// Gets data from URL parameters.
+// Acquisisce i dati dai parametri dell'URL
 $name = $_GET['name'];
 $address = $_GET['address'];
 $type = $_GET['type'];
@@ -13,13 +13,13 @@ $ascensore = $_GET['ascensore'];
 $rampa= $_GET['rampa'];
 $serviziigienici = $_GET['serviziigienici'];
 
-// Opens a connection to a MySQL server.
+// Stabilisce una connessione con il database
 $connection=mysqli_connect ("localhost", $username, $password, $database);
 if (!$connection) {
   die('Not connected : ' . mysql_error());
 }
 
-// Inserts new row with place data.
+// Inserisce nuove righe nel database con i dati acquisiti
 $query = sprintf("INSERT INTO locationsend " .
          " (id, name, address, type, lat, lng, ascensore, rampa, serviziigienici ) " .
          " VALUES (NULL, '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s');",
