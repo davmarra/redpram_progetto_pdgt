@@ -1,5 +1,5 @@
 # redpram_progetto_pdgt
-#Mappa RedPram 
+# Mappa RedPram 
 
 Gli Open Data in formato .xls sono stati convertiti in un file .csv  con delle modifiche apportate, riguardanti l’eliminazione di campi da noi ritenuti non necessari, eliminazione di campi duplicati, dati ristretti riguardanti l’area urbana di Urbino con infine l’aggiunta di tre campi (ascensore, rampa, servizi igienici) necessari a dettagliare quelle che saranno le informazioni d’interesse per gli utenti.
 
@@ -24,7 +24,7 @@ Una volta che il file .xml viene caricato sulla pagina mappa.html verrà creato 
 mappa.html -> marker(evento click) -> infoWindow/infoPanel 
 
 
-#Mappa Segnalazioni
+# Mappa Segnalazioni
 
 Il file mappa_segnalazioni.html sfrutta l’API messa a disposizione da Google
 https://maps.googleapis.com/maps/api/js?key=AIzaSyDmHL2efPewdksDGepxcqJ3jkAzSedeUNE&libraries=places&callback=initMap 
@@ -51,7 +51,7 @@ segnalazioni_location.php -> connection -> userlocation.locatiosend
 segnalazioni_location.php -> mysqli¬_query -> userlocation.locationsend 
 
 
-#RedPram Index
+# RedPram Index
 
 Index.html è l’index della nostra piattaforma sviluppata attraverso codice html per avere una base sulla quale richiamare i nostri servizi, ricordando che il template è stato acquisito tramite un sito web utilizzato semplicemente per dare maggior qualità all’interfaccia utente con delle modifiche attraverso le quali risultavano indispensabili compiere. 
 
