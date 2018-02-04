@@ -2,22 +2,22 @@
 
 header("Content-type: text/xml");
 
-// mysql data
+// Dati sql
 $username = "root" ; 
 $password = "" ; 
 $database = "mapmarkerswork" ;
-// Start XML file, create parent node
+// Crea un file xml e i suoi nodi
 
 $dom = new DOMDocument("1.0");
 $node = $dom->createElement("markers");
 $parnode = $dom->appendChild($node);
 
-// Opens a connection to a MySQL server
+// Stabilisce una connessione con il database mysql
 
 $connection=mysqli_connect ('localhost', $username, $password, $database);
 if (!$connection) {  die('Not connected : ' . mysql_error());}
 
-// Select all the rows in the markers table
+// Selezione tutte le righe del database
 
 $query = "SELECT * FROM markers WHERE 1";
 $result = mysqli_query($connection, $query);
@@ -26,7 +26,7 @@ if (!$result) {
 }
 
 
-// Iterate through the rows, adding XML nodes for each
+// Aggiunge un nodo al file xml per ogni attributo del database
 
 while ($row = @mysqli_fetch_assoc($result)){
   // Add to XML document node
